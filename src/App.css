@@ -1,0 +1,120 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+.login-section {
+  background-color: #aaa5aa;
+  width: 300px;
+  height: 400px;
+  margin-top: 150px;
+  margin-left: 550px;
+  border: 4px solid black;
+  border-radius: 60px;
+}
+
+.email {
+
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: larger;
+  font-style: bold;
+}
+
+.password {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: larger;
+  font-style: bold;
+
+}
+
+#email {
+  border-radius: 30px;
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: large;
+}
+
+#password {
+  border-radius: 30px;
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: large;
+}
+
+.fb-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  font-size: 3.6rem;
+  color: #3b5998;
+}
+
+.fb-div {
+  width: 25rem;
+  height: 24rem;
+  background-color: white;
+  box-shadow: 4px 7px 14px #888888;
+  color: black;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#email {
+  border-radius: 7px;
+  margin-top: 2rem;
+  width: 20rem;
+  background-color: rgb(211, 240, 231);
+  border: none;
+}
+
+#password {
+  border-radius: 7px;
+  width: 20rem;
+  margin-top: 2rem;
+  background-color: rgb(211, 240, 231);
+  border: none;
+}
+
+#loginbtn {
+  width: 20rem;
+  height: 2.4rem;
+  border-radius: 5px;
+  background-color: #3b5998;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+}
+
+#fg {
+  font-size: 1rem;
+  color: black;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+#createbtn {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+  border: none;
+  width: 15rem;
+  height: 2.4rem;
+}
